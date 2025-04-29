@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="boot/boot/css/bootstrap.min.css">
+</head>
+<body>
+
+    
+    <div class="sidebar" id="sidebar">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">☰</a> -->
+    <div>
+    <nav style="width: 270px; background-color: lightblue; padding-top: 20px; padding-bottom: 20px; background-size: cover;">
+        <img src="image/suza_logo.png" style="width: 100px; height: 50px;">
+    </nav>
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link" href="manage_user.html">Manage Users</a></li>
+                <li class="nav-item"><a class="nav-link" href="manage_student.html">Manage Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="manage_couse.html">Manage Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="manage_allocation.html">Manage Allocation</a></li>
+                <li class="nav-item"><a class="nav-link" href="manage_result.html">Manage Results</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+     
+
+    
+    <div id="main">
+        <div id="main" class="container">
+            <nav style="width: 1000px;">
+                <a href="javascript:void(0)" class="closebtn"  onclick="closeNav()" style="background-color: blue; width: 100%; color: white;">☰</a>
+                <hr style="color: red; width: 100%; padding-left: 500px">
+                <button class="openbtn" onclick="openNav()">☰</button>
+            </nav>
+                <label><div class="container mt-4">
+                    <h4>Admin Dashboard</h4>
+                    <div class="d-flex flex-wrap gap-3 mt-3">
+                      
+                      <!-- Card for Total Courses -->
+                      <div class="card text-center shadow-sm" style="min-width: 200px; flex: 1;">
+                        <div class="card-body">
+                          <h5 class="card-title mb-2">Total Courses</h5>
+                          <h4 class="text-primary">0</h4>
+                        </div>
+                      </div>
+                  
+                      <!-- Card for Total Students -->
+                      <div class="card text-center shadow-sm" style="min-width: 200px; flex: 1;">
+                        <div class="card-body">
+                          <h5 class="card-title mb-2">Total Students</h5>
+                          <h4 class="text-primary">0</h4>
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </div>
+                  
+                  
+                  </label>
+</body>
+<script src="javascript/java.js"></script>
+</html>
